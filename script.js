@@ -1,4 +1,10 @@
-function showMessage() {
-    document.getElementById("message").innerHTML =
-        "✅ GitHub Actions Practice Successful!";
+function changeText(){
+
+    let text=document.getElementById("text");
+
+
+    text.innerHTML=
+    "🔥 CI/CD Pipeline is Working Successfully!";
+
+
 }
